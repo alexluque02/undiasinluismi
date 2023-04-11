@@ -9,3 +9,10 @@ code .
 
 privado.txt
 privada/ Escribo esto en .gitgnore
+
+git add .
+git commit -m "Añadiendo archivos ignorados por git"
+touch fichero1.txt
+git tag -a v0.1 -m "Version 0.1."
+
+
