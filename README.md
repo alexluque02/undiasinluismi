@@ -14,5 +14,11 @@ git add .
 git commit -m "Añadiendo archivos ignorados por git"
 touch fichero1.txt
 git tag -a v0.1 -m "Version 0.1."
+push
 
+git checkout -b "v.02"
+touch 2.txt
+add .
+commit 
+git push --all
 
